@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <link rel="stylesheet" href="style_homepage.css">
+        <meta charset="utf-8">
+        <title>Ishmeet_Contact</title>
+    </head>
+
+<body>
+        <div class="header">
+            <div class="my-name">Ishmeet Kaur</div>
+            <div class="header-menu">
+                <nav>
+                    <ul>
+                        <li><a href="portfolio_website.html">Home</a></li>
+                        <li><a href="portfolio_website_services.html">Services</a></li>
+                        <li><a href="portfolio_website_projects.html">Projects</a></li>
+                        <li><a href="portfolio_website_contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    <div class="container"><!--Contact form-->
+        <p>Reach out to me. I would love to connect with you for your queries!</p>
+        <div class="contact-box">
+          <div class="contact-left">
+                <form method="post" action="save-contact-details.html">
+                    <div class="input-row">
+                        <div class="input-group"><!--Write full name-->
+                            <label>Full Name</label>
+                            <input type="text" id="fullname" name="fullname" placeholder="John Williams">
+                        </div>
+                        <div class="input-group"><!--Enter mobile number-->
+                            <label>Phone</label>
+                            <input type="text" id="phonenumber" name="phonenumber" placeholder="+1 412 520 3231">
+                        </div>
+                    </div>
+                 
+            <div class="input-row"><!--Enter email id-->
+                <div class="input-group">
+                    <label>Your mail id</label>
+                    <input type="email" id="email" name="e-mail" placeholder="john@gmail.com">
+                </div>
+          
+                <div class="input-group"><!--Choose gender-->
+                <label>Gender</label>
+    
+                    <select id="gender" name="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Bisexual">Bisexual</option>
+                    <option value="Heterosexual">Heterosexual</option>
+                    </select>
+                </div>
+            </div>
+                <label>Type your message here</label><!--Write message/give feedback-->
+                <textarea id="subject" name="subject" placeholder="Your Message Here" rows="5"></textarea>
+            
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
