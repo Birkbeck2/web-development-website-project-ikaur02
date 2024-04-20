@@ -598,15 +598,9 @@ box-shadow: 0px 5px 15px 0px rba(28,0,181,0.3);
 {
     display: flex;
     width: 100%;
-    background-color:#db9cc0;
-    justify-content: center;
-}
-
-.flex_container_services_01 h1
-{
-    font-size: 2.5rem;
-    color: #fffdf0;
-    font-weight: 300;
+    background-color: #fff;
+    font-size: 1.5rem;
+    
 }
 
 .flex_container_services_02
@@ -614,9 +608,8 @@ box-shadow: 0px 5px 15px 0px rba(28,0,181,0.3);
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color:#db9cc0;
+    background-color: #fff;
     padding-bottom: 7%;
-    justify-content: space-evenly;
 }
 
 .services_02_first_div
@@ -632,13 +625,18 @@ box-shadow: 0px 5px 15px 0px rba(28,0,181,0.3);
     max-width: 40%;
 }
 
+p
+{
+    font-size: 1.2rem;
+    color: #000;
+}
+
 .flex_container_services_03
 {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color:#db9cc0;
-    padding-bottom: 7%;
+    background-color: #fff;
 }
 
 .services_03_first_div
